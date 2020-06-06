@@ -1,2 +1,20 @@
 # maven-repo
 simpleMVC使用方法
+在pom.xml里加入
+<dependencies>
+    <dependency>
+	 <groupId>com</groupId>
+	 <artifactId>simple-mvc-lib</artifactId>
+	 <version>0.0.1-SNAPSHOT</version>
+   </dependency>
+  </dependencies>
+  <repositories>
+        <repository>
+            <id>maven-repo-github</id>
+            <url>https://github.com/qiwenxue/maven-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+ </repositories>

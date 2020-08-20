@@ -4,8 +4,8 @@
   <artifactId>simple-mvc-lib</artifactId>
   <versioning>
     <versions>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200606144747</lastUpdated>
+    <lastUpdated>20200820075951</lastUpdated>
   </versioning>
 </metadata>
